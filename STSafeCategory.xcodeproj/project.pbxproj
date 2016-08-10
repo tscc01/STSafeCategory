@@ -7,128 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00AA544EAA9378E0B3E8A4A6 /* libPods-STSafeCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC34EE7D7D0BF0513C18DD4E /* libPods-STSafeCategory.a */; };
-		43B5ECD11D59D375007186B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B5ECD01D59D375007186B6 /* main.m */; };
-		43B5ECD41D59D375007186B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B5ECD31D59D375007186B6 /* AppDelegate.m */; };
-		43B5ECD71D59D375007186B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B5ECD61D59D375007186B6 /* ViewController.m */; };
-		43B5ECDA1D59D375007186B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B5ECD81D59D375007186B6 /* Main.storyboard */; };
-		43B5ECDC1D59D375007186B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B5ECDB1D59D375007186B6 /* Assets.xcassets */; };
-		43B5ECDF1D59D375007186B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B5ECDD1D59D375007186B6 /* LaunchScreen.storyboard */; };
-		43B5ECE91D59D4A7007186B6 /* STSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B5ECE81D59D4A7007186B6 /* STSafeCategory.m */; };
+		43B5ECFF1D5ADEB4007186B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B5ECFE1D5ADEB4007186B6 /* main.m */; };
+		43B5ED021D5ADEB4007186B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B5ED011D5ADEB4007186B6 /* AppDelegate.m */; };
+		43B5ED051D5ADEB4007186B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B5ED041D5ADEB4007186B6 /* ViewController.m */; };
+		43B5ED081D5ADEB4007186B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B5ED061D5ADEB4007186B6 /* Main.storyboard */; };
+		43B5ED0A1D5ADEB4007186B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B5ED091D5ADEB4007186B6 /* Assets.xcassets */; };
+		43B5ED0D1D5ADEB4007186B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B5ED0B1D5ADEB4007186B6 /* LaunchScreen.storyboard */; };
+		43B5ED171D5ADEFD007186B6 /* STSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B5ED161D5ADEFD007186B6 /* STSafeCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		43B5ECCC1D59D375007186B6 /* STSafeCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STSafeCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		43B5ECD01D59D375007186B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		43B5ECD21D59D375007186B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		43B5ECD31D59D375007186B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		43B5ECD51D59D375007186B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		43B5ECD61D59D375007186B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		43B5ECD91D59D375007186B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		43B5ECDB1D59D375007186B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		43B5ECDE1D59D375007186B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		43B5ECE01D59D375007186B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43B5ECE71D59D4A7007186B6 /* STSafeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSafeCategory.h; sourceTree = "<group>"; };
-		43B5ECE81D59D4A7007186B6 /* STSafeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSafeCategory.m; sourceTree = "<group>"; };
-		70BF547F763AAB2FEA93501F /* Pods-STSafeCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STSafeCategory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STSafeCategory/Pods-STSafeCategory.debug.xcconfig"; sourceTree = "<group>"; };
-		EBD73456F04A22F5BA8459D9 /* Pods-STSafeCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STSafeCategory.release.xcconfig"; path = "Pods/Target Support Files/Pods-STSafeCategory/Pods-STSafeCategory.release.xcconfig"; sourceTree = "<group>"; };
-		EC34EE7D7D0BF0513C18DD4E /* libPods-STSafeCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STSafeCategory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B5ECFA1D5ADEB4007186B6 /* STSafeCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STSafeCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B5ECFE1D5ADEB4007186B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43B5ED001D5ADEB4007186B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43B5ED011D5ADEB4007186B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43B5ED031D5ADEB4007186B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43B5ED041D5ADEB4007186B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43B5ED071D5ADEB4007186B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43B5ED091D5ADEB4007186B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43B5ED0C1D5ADEB4007186B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43B5ED0E1D5ADEB4007186B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B5ED151D5ADEFD007186B6 /* STSafeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSafeCategory.h; sourceTree = "<group>"; };
+		43B5ED161D5ADEFD007186B6 /* STSafeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSafeCategory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		43B5ECC91D59D375007186B6 /* Frameworks */ = {
+		43B5ECF71D5ADEB4007186B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00AA544EAA9378E0B3E8A4A6 /* libPods-STSafeCategory.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		43B5ECC31D59D375007186B6 = {
+		43B5ECF11D5ADEB4007186B6 = {
 			isa = PBXGroup;
 			children = (
-				43B5ECCE1D59D375007186B6 /* STSafeCategory */,
-				43B5ECCD1D59D375007186B6 /* Products */,
-				58B0A26C352F836F3FC33389 /* Pods */,
-				6046E98313B17FF576F7713D /* Frameworks */,
+				43B5ECFC1D5ADEB4007186B6 /* STSafeCategory */,
+				43B5ECFB1D5ADEB4007186B6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		43B5ECCD1D59D375007186B6 /* Products */ = {
+		43B5ECFB1D5ADEB4007186B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43B5ECCC1D59D375007186B6 /* STSafeCategory.app */,
+				43B5ECFA1D5ADEB4007186B6 /* STSafeCategory.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		43B5ECCE1D59D375007186B6 /* STSafeCategory */ = {
+		43B5ECFC1D5ADEB4007186B6 /* STSafeCategory */ = {
 			isa = PBXGroup;
 			children = (
-				43B5ECE61D59D498007186B6 /* STSafeCategory */,
-				43B5ECD21D59D375007186B6 /* AppDelegate.h */,
-				43B5ECD31D59D375007186B6 /* AppDelegate.m */,
-				43B5ECD51D59D375007186B6 /* ViewController.h */,
-				43B5ECD61D59D375007186B6 /* ViewController.m */,
-				43B5ECD81D59D375007186B6 /* Main.storyboard */,
-				43B5ECDB1D59D375007186B6 /* Assets.xcassets */,
-				43B5ECDD1D59D375007186B6 /* LaunchScreen.storyboard */,
-				43B5ECE01D59D375007186B6 /* Info.plist */,
-				43B5ECCF1D59D375007186B6 /* Supporting Files */,
+				43B5ED141D5ADEFD007186B6 /* STSafeCategory */,
+				43B5ED001D5ADEB4007186B6 /* AppDelegate.h */,
+				43B5ED011D5ADEB4007186B6 /* AppDelegate.m */,
+				43B5ED031D5ADEB4007186B6 /* ViewController.h */,
+				43B5ED041D5ADEB4007186B6 /* ViewController.m */,
+				43B5ED061D5ADEB4007186B6 /* Main.storyboard */,
+				43B5ED091D5ADEB4007186B6 /* Assets.xcassets */,
+				43B5ED0B1D5ADEB4007186B6 /* LaunchScreen.storyboard */,
+				43B5ED0E1D5ADEB4007186B6 /* Info.plist */,
+				43B5ECFD1D5ADEB4007186B6 /* Supporting Files */,
 			);
 			path = STSafeCategory;
 			sourceTree = "<group>";
 		};
-		43B5ECCF1D59D375007186B6 /* Supporting Files */ = {
+		43B5ECFD1D5ADEB4007186B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				43B5ECD01D59D375007186B6 /* main.m */,
+				43B5ECFE1D5ADEB4007186B6 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		43B5ECE61D59D498007186B6 /* STSafeCategory */ = {
+		43B5ED141D5ADEFD007186B6 /* STSafeCategory */ = {
 			isa = PBXGroup;
 			children = (
-				43B5ECE71D59D4A7007186B6 /* STSafeCategory.h */,
-				43B5ECE81D59D4A7007186B6 /* STSafeCategory.m */,
+				43B5ED151D5ADEFD007186B6 /* STSafeCategory.h */,
+				43B5ED161D5ADEFD007186B6 /* STSafeCategory.m */,
 			);
 			path = STSafeCategory;
-			sourceTree = "<group>";
-		};
-		58B0A26C352F836F3FC33389 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				70BF547F763AAB2FEA93501F /* Pods-STSafeCategory.debug.xcconfig */,
-				EBD73456F04A22F5BA8459D9 /* Pods-STSafeCategory.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		6046E98313B17FF576F7713D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EC34EE7D7D0BF0513C18DD4E /* libPods-STSafeCategory.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		43B5ECCB1D59D375007186B6 /* STSafeCategory */ = {
+		43B5ECF91D5ADEB4007186B6 /* STSafeCategory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43B5ECE31D59D375007186B6 /* Build configuration list for PBXNativeTarget "STSafeCategory" */;
+			buildConfigurationList = 43B5ED111D5ADEB4007186B6 /* Build configuration list for PBXNativeTarget "STSafeCategory" */;
 			buildPhases = (
-				1D130DECD4F6B069938DAF17 /* 📦 Check Pods Manifest.lock */,
-				43B5ECC81D59D375007186B6 /* Sources */,
-				43B5ECC91D59D375007186B6 /* Frameworks */,
-				43B5ECCA1D59D375007186B6 /* Resources */,
-				78F969A371FE62C54CF07A6A /* 📦 Embed Pods Frameworks */,
-				E574E20B35CA47F747295EFC /* 📦 Copy Pods Resources */,
+				43B5ECF61D5ADEB4007186B6 /* Sources */,
+				43B5ECF71D5ADEB4007186B6 /* Frameworks */,
+				43B5ECF81D5ADEB4007186B6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -136,24 +109,24 @@
 			);
 			name = STSafeCategory;
 			productName = STSafeCategory;
-			productReference = 43B5ECCC1D59D375007186B6 /* STSafeCategory.app */;
+			productReference = 43B5ECFA1D5ADEB4007186B6 /* STSafeCategory.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		43B5ECC41D59D375007186B6 /* Project object */ = {
+		43B5ECF21D5ADEB4007186B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "tscc-sola";
 				TargetAttributes = {
-					43B5ECCB1D59D375007186B6 = {
+					43B5ECF91D5ADEB4007186B6 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
-			buildConfigurationList = 43B5ECC71D59D375007186B6 /* Build configuration list for PBXProject "STSafeCategory" */;
+			buildConfigurationList = 43B5ECF51D5ADEB4007186B6 /* Build configuration list for PBXProject "STSafeCategory" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -161,104 +134,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 43B5ECC31D59D375007186B6;
-			productRefGroup = 43B5ECCD1D59D375007186B6 /* Products */;
+			mainGroup = 43B5ECF11D5ADEB4007186B6;
+			productRefGroup = 43B5ECFB1D5ADEB4007186B6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43B5ECCB1D59D375007186B6 /* STSafeCategory */,
+				43B5ECF91D5ADEB4007186B6 /* STSafeCategory */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		43B5ECCA1D59D375007186B6 /* Resources */ = {
+		43B5ECF81D5ADEB4007186B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43B5ECDF1D59D375007186B6 /* LaunchScreen.storyboard in Resources */,
-				43B5ECDC1D59D375007186B6 /* Assets.xcassets in Resources */,
-				43B5ECDA1D59D375007186B6 /* Main.storyboard in Resources */,
+				43B5ED0D1D5ADEB4007186B6 /* LaunchScreen.storyboard in Resources */,
+				43B5ED0A1D5ADEB4007186B6 /* Assets.xcassets in Resources */,
+				43B5ED081D5ADEB4007186B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		1D130DECD4F6B069938DAF17 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		78F969A371FE62C54CF07A6A /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STSafeCategory/Pods-STSafeCategory-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E574E20B35CA47F747295EFC /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STSafeCategory/Pods-STSafeCategory-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		43B5ECC81D59D375007186B6 /* Sources */ = {
+		43B5ECF61D5ADEB4007186B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43B5ECD71D59D375007186B6 /* ViewController.m in Sources */,
-				43B5ECD41D59D375007186B6 /* AppDelegate.m in Sources */,
-				43B5ECD11D59D375007186B6 /* main.m in Sources */,
-				43B5ECE91D59D4A7007186B6 /* STSafeCategory.m in Sources */,
+				43B5ED051D5ADEB4007186B6 /* ViewController.m in Sources */,
+				43B5ED021D5ADEB4007186B6 /* AppDelegate.m in Sources */,
+				43B5ECFF1D5ADEB4007186B6 /* main.m in Sources */,
+				43B5ED171D5ADEFD007186B6 /* STSafeCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		43B5ECD81D59D375007186B6 /* Main.storyboard */ = {
+		43B5ED061D5ADEB4007186B6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				43B5ECD91D59D375007186B6 /* Base */,
+				43B5ED071D5ADEB4007186B6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		43B5ECDD1D59D375007186B6 /* LaunchScreen.storyboard */ = {
+		43B5ED0B1D5ADEB4007186B6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				43B5ECDE1D59D375007186B6 /* Base */,
+				43B5ED0C1D5ADEB4007186B6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -266,7 +191,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		43B5ECE11D59D375007186B6 /* Debug */ = {
+		43B5ED0F1D5ADEB4007186B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -310,7 +235,7 @@
 			};
 			name = Debug;
 		};
-		43B5ECE21D59D375007186B6 /* Release */ = {
+		43B5ED101D5ADEB4007186B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -348,9 +273,8 @@
 			};
 			name = Release;
 		};
-		43B5ECE41D59D375007186B6 /* Debug */ = {
+		43B5ED121D5ADEB4007186B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70BF547F763AAB2FEA93501F /* Pods-STSafeCategory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = STSafeCategory/Info.plist;
@@ -360,9 +284,8 @@
 			};
 			name = Debug;
 		};
-		43B5ECE51D59D375007186B6 /* Release */ = {
+		43B5ED131D5ADEB4007186B6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBD73456F04A22F5BA8459D9 /* Pods-STSafeCategory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = STSafeCategory/Info.plist;
@@ -375,25 +298,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43B5ECC71D59D375007186B6 /* Build configuration list for PBXProject "STSafeCategory" */ = {
+		43B5ECF51D5ADEB4007186B6 /* Build configuration list for PBXProject "STSafeCategory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43B5ECE11D59D375007186B6 /* Debug */,
-				43B5ECE21D59D375007186B6 /* Release */,
+				43B5ED0F1D5ADEB4007186B6 /* Debug */,
+				43B5ED101D5ADEB4007186B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43B5ECE31D59D375007186B6 /* Build configuration list for PBXNativeTarget "STSafeCategory" */ = {
+		43B5ED111D5ADEB4007186B6 /* Build configuration list for PBXNativeTarget "STSafeCategory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43B5ECE41D59D375007186B6 /* Debug */,
-				43B5ECE51D59D375007186B6 /* Release */,
+				43B5ED121D5ADEB4007186B6 /* Debug */,
+				43B5ED131D5ADEB4007186B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 43B5ECC41D59D375007186B6 /* Project object */;
+	rootObject = 43B5ECF21D5ADEB4007186B6 /* Project object */;
 }
