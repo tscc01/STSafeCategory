@@ -1,2 +1,2 @@
 # STSafeCategory
-OC safe category to avoid bad access to objects
+Object-C safe category to avoid bad access to objects
