@@ -19,20 +19,6 @@
     return nil;
 }
 
-- (id)st_safeInitWithObjects:(const id [])objects count:(NSUInteger)count
-{
-    if (!objects) {
-        return nil;
-    }
-    
-    for (int i = 0; i < count; i++) {
-        if(objects[i] == nil)
-            return nil;
-    }
-    
-    return [self st_safeInitWithObjects:objects count:count];
-}
-
 @end
 
 @implementation NSMutableArray (STSafeCategory)
@@ -151,8 +137,6 @@
 {
     [self swizzleMethod:objc_getClass("__NSArrayI") originMethod:@selector(objectAtIndex:) withMethod:@selector(st_safeObjectAtIndex:)];
     
-    [self swizzleMethod:objc_getClass("__NSPlaceholderArray") originMethod:@selector(initWithObjects:count:) withMethod:@selector(st_safeInitWithObjects:count:)];
-
     [self swizzleMethod:objc_getClass("__NSArrayM") originMethod:@selector(objectAtIndex:) withMethod:@selector(st_safeObjectAtIndex:)];
 
     [self swizzleMethod:objc_getClass("__NSArrayM") originMethod:@selector(addObject:) withMethod:@selector(st_safeAddObject:)];
